@@ -25,7 +25,7 @@ const coaches = [
   },
   {
     name: "Jasmin Mušić",
-    rank: "No-Gi trener",
+    rank: "Ljubičasti pojas",
     image: "/images/coaches/sovo.png",
     bio: "Posvećen no-gi treningu i razvoju submission grappling vještina kod svih članova kluba.",
   },
@@ -81,7 +81,7 @@ export default function Coaches() {
 
                 <div className="relative p-6 -mt-20 flex-1">
                   <div className="w-10 h-1 bg-gold rounded-full mb-4" />
-                  <h3 className="text-2xl font-bold uppercase mb-1">
+                  <h3 className="text-xl lg:text-2xl font-bold uppercase mb-1 whitespace-nowrap">
                     {coach.name}
                   </h3>
                   <p className="text-gold text-sm font-semibold mb-4">
