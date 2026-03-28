@@ -23,6 +23,12 @@ const coaches = [
     image: "/images/coaches/krso.png",
     bio: "Mladi i talentovani trener sa fokusom na no-gi trening i treninge sa djecom.",
   },
+  {
+    name: "Jasmin Mušić",
+    rank: "No-Gi trener",
+    image: "/images/coaches/sovo.png",
+    bio: "Posvećen no-gi treningu i razvoju submission grappling vještina kod svih članova kluba.",
+  },
 ];
 
 export default function Coaches() {
@@ -53,7 +59,7 @@ export default function Coaches() {
           </p>
         </motion.div>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {coaches.map((coach, i) => (
             <motion.div
               key={coach.name}
