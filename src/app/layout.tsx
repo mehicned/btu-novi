@@ -17,8 +17,8 @@ export const metadata: Metadata = {
   description:
     "Brazilian Jiu-Jitsu klub u Sarajevu. Gi, No-Gi i Kids treninzi. Pridruži se BTU porodici na adresi Hasana Brkića 30, Sarajevo.",
   icons: {
-    icon: "/images/logo.png",
-    apple: "/images/logo.png",
+    icon: "/images/favicon.png",
+    apple: "/images/favicon.png",
   },
   keywords: [
     "BJJ Sarajevo",
