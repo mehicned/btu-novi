@@ -66,8 +66,8 @@ export default function About() {
               uključivanja što većeg broja mladih u sportske aktivnosti.
             </p>
             <p className="text-lg text-white/60 leading-relaxed mb-6">
-              Naš klub promoviše borilačke vještine: MMA, BJJ, Judo, Grappling i
-              Wrestling, te zdrav životni stil kroz atletsko bavljenje sportom.
+              Naš klub promoviše Brazilian Jiu-Jitsu (BJJ) te zdrav životni stil
+              kroz atletsko bavljenje sportom.
             </p>
             <p className="text-lg text-white/60 leading-relaxed mb-8">
               Smanjujemo štetne društvene uticaje na mlade organizovanjem takmičenja,
@@ -75,7 +75,7 @@ export default function About() {
             </p>
             <div className="flex items-center gap-6">
               <div className="flex -space-x-3">
-                {["/images/coaches/emir-alagic.png", "/images/coaches/amir-mahmutovic.png", "/images/coaches/aldin-krso.png"].map((src, i) => (
+                {["/images/coaches/emir-alagic.png", "/images/coaches/amir-mahmutovic.png", "/images/coaches/aldin-krso.png", "/images/coaches/sovo.png"].map((src, i) => (
                   <div
                     key={i}
                     className="w-12 h-12 rounded-full border-2 border-navy bg-navy-card overflow-hidden"
@@ -85,7 +85,7 @@ export default function About() {
                 ))}
               </div>
               <div>
-                <div className="text-white font-semibold">3 iskusna trenera</div>
+                <div className="text-white font-semibold">4 iskusna trenera</div>
                 <div className="text-sm text-white/40">Crni i ljubičasti pojasevi</div>
               </div>
             </div>
